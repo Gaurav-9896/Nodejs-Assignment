@@ -4,9 +4,11 @@
     "module": "commonjs",
     "outDir": "dist", // Specify your desired output directory here
     "strict": true,
-    
-    
-    
+
+
   },
+  "exclude": ["node_modules"],
+    "include": ["./src"]
+  
 
 }
