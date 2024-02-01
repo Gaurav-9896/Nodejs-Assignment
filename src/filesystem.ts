@@ -3,7 +3,7 @@ import { WriteStream } from "fs";
 import { hostname } from "os";
 
 const fs = require('fs');
-
+module.exports ('fs');
 //Writing a file
 fs.writeFile('file.txt',"Created a file ",(err:any) =>{
     if (err) {

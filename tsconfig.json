@@ -4,6 +4,7 @@
     "module": "commonjs",
     "outDir": "dist", // Specify your desired output directory here
     "strict": true,
+    "rootDir": "src"
 
 
   },
